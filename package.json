@@ -1,0 +1,17 @@
+{
+  "name": "zero-north-vault-gen",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Serverless CLI EXE generator for Zero North Vault",
+  "main": "dev-server.js",
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.5",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}

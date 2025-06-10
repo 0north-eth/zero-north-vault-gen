@@ -134,3 +134,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore local test EXEs and temporary folders
+build/
+tmp/
+manual-vault.exe
