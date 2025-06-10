@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/generateExe.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/generateExe", "dest": "api/generateExe.js" }
+  ]
+}
