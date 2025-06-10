@@ -1,0 +1,26 @@
+{
+  "name": "zero-north-vault-desktop",
+  "version": "1.0.0",
+  "description": "Zero North Vault – a sovereign, offline cipher desktop app",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --windows"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^26.0.12",
+    "pkg": "^5.8.1"
+  },
+  "build": {
+    "appId": "com.zeronorth.vault",
+    "productName": "Zero North Vault",
+    "win": {
+      "target": ["nsis", "portable"],
+      "icon": "assets/zeronorth-logo.png"
+    }
+  }
+}
